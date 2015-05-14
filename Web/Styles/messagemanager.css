@@ -1,0 +1,206 @@
+@import url(http://fonts.googleapis.com/css?family=Poiret+One);
+@import url(http://fonts.googleapis.com/css?family=Play);
+@import url(http://fonts.googleapis.com/css?family=Titillium+Web&subset=latin,latin-ext);
+
+body {
+	background-color: #E3E5E8;
+}
+
+#PageBarTop {
+	width: 100%;
+	height: 96px;
+	background-size: 100% auto;
+	background-position: top center;
+	background-repeat: no-repeat;
+	background-image: url("../Graphics/background.jpg");
+	border-bottom: 2px solid #4C5168;
+}
+
+#PageBarTopTitle {
+	position: absolute;
+	left: 104px;
+	top: 0px;
+	width: 356px;
+	height: 96px;
+	font-family: 'Poiret One', cursive;
+	font-size: 64px;
+	line-height: 96px;
+	color: #6AB5F2;
+	text-align: center;
+}
+
+#PageBarTopTitleBackTransprent {
+	position: absolute;
+	left: 8px;
+	top: 0px;
+	opacity: 0.15;
+	background-color: #6B81FF;
+	width: 442px;
+	height: 96px;
+}
+
+#LogoWebDisplay{
+	position: absolute;
+	left: 8px;
+	top: 0px;
+	width: 96px;
+	height: 96px;
+	background-size: 100% auto;
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-image: url("../Graphics/logo.png");
+}
+
+#LogoHeBaSoft {
+	position: absolute;
+	right: 8px;
+	top: 0px;
+	width: 400px;
+	height: 96px;
+	background-size: 80% auto;
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-image: url("../Graphics/hslogo_white.png");
+}
+
+#InterfaceMessager {
+	display: none;
+}
+
+#InterfaceDisplayWrapper {
+	width: 650px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 48px;
+}
+
+#DisplayCurrentMessage {
+	font-family: 'Play', sans-serif;
+	font-size: 35px;
+	line-height: 55px;
+	color: #636A7F;
+	text-align: center;
+	background-color: #D1D3D6;
+	border-bottom: 1px solid #C1C1C1;
+}
+
+#DisplayCurrentMessageData {
+	width: cacl(100% - 8px);
+	height: 20px;
+	font-family: 'Play', sans-serif;
+	font-size: 13px;
+	line-height: 20px;
+	color: #A8A8A8;
+	text-align: right;
+	padding-right: 8px;
+	background-color: #DDDDDD;
+}
+
+#InterfaceInput {
+	width: 650px;
+	height: 18px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 32px;
+	margin-bottom: 8px;
+	font-family: 'Play', sans-serif;
+	color: #A8A8A8;
+	font-size: 10px;
+}
+
+#InterfaceInputText {
+	display: inline-block;
+	width: 80%;
+	background-color: #D1D3D6;
+	color: #6D6E70;
+	border: 0px;
+	margin: 0px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#InterfaceInputSend {
+	position: relative;
+	top: -1px;
+	display: inline-block;
+	width: 19%;
+	height: 100%;
+	background-color: #B6B9C1;
+	font-family: 'Play', sans-serif;
+	font-size: 13px;
+	color: #6D6E70;
+	text-align: center;
+	margin: 0px;
+	cursor: pointer;
+}
+
+#LogWrapper {
+	width: 650px;
+	margin-left: auto;
+	margin-right: auto;
+	padding-top: 16px;
+}
+
+.DisplayLogMessageWrapper {
+	width: 650px;
+	margin-top: 16px;
+	border-left: 1px solid #C1C1C1;
+	padding-left: 4px;
+}
+
+.DisplayLogMessage {
+	font-family: 'Play', sans-serif;
+	font-size: 16px;
+	line-height: 24px;
+	color: #636A7F;
+	text-align: left;
+}
+
+.DisplayLogMessageData{
+	width: cacl(100% - 8px);
+	height: 14px;
+	font-family: 'Play', sans-serif;
+	font-size: 9px;
+	line-height: 14px;
+	color: #A8A8A8;
+	text-align: left;
+	padding-left: 4px;
+}
+
+#InterfaceLogin {
+	width: 650px;
+	height: 18px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 128px;
+	margin-bottom: 8px;
+	font-family: 'Play', sans-serif;
+	color: #A8A8A8;
+	font-size: 10px;
+}
+
+#InterfaceInputLogin {
+	display: inline-block;
+	width: 80%;
+	background-color: #D1D3D6;
+	color: #6D6E70;
+	border: 0px;
+	margin: 0px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#InterfaceButtonLogin {
+	position: relative;
+	top: -1px;
+	display: inline-block;
+	width: 19%;
+	height: 100%;
+	background-color: #B6B9C1;
+	font-family: 'Play', sans-serif;
+	font-size: 13px;
+	color: #6D6E70;
+	text-align: center;
+	margin: 0px;
+	cursor: pointer;
+}
